@@ -1,0 +1,51 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  width: 80px;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f2dada;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: black;
+}
+
+.App-body {
+  background-color: grey;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 253, 253);
+}
+
+/* Add any additional styling for your Home component if needed */
+
+.App-link {
+  color: #61dafb;
+}
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

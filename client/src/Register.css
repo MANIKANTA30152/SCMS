@@ -1,0 +1,119 @@
+/* Register.css */
+
+/* Container styling */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Consistent gap between form elements */
+  }
+  
+  /* Form field label styling */
+  label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Form field input styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  /* Select element styling */
+  select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333%22%3E%3Cpath d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    padding-right: 25px; /* Accommodate dropdown arrow */
+    cursor: pointer;
+  }
+  
+  /* Checkbox styling */
+  .checkbox {
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Snackbar styling */
+  .snackbar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Close button styling */
+  .snackbar button {
+    padding: 8px 16px; /* Increased padding for better click target */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .snackbar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Accessibility improvements */
+  .container a,
+  .container button {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .container a:hover,
+  .container button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Maintain focus outline for better usability */
+  :focus {
+    outline: 2px solid #007bff; /* Blue focus outline */
+  }
+  

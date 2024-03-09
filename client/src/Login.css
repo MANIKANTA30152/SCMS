@@ -1,0 +1,57 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+}
+
+.login-content {
+    background-color: #858585;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow for the container */
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-content label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.login-content input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-content button:hover {
+    background-color: #0056b3;
+}
+
+.login-response {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red; /* You can adjust the color for your response message */
+    text-align: center;
+}

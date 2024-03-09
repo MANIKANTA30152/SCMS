@@ -1,0 +1,70 @@
+.delete-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+}
+
+.delete-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow for the container */
+    max-width: 400px;
+    width: 100%;
+}
+
+.delete-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.delete-content label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.delete-content input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #dc3545; /* Red color for delete button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-content button:hover {
+    background-color: #c82333; /* Darker shade of red on hover */
+}
+
+.delete-response {
+    margin-top: 10px;
+    font-size: 14px;
+    color: green; /* You can adjust the color for your response message */
+    text-align: center;
+}
+
+.delete-response {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,39 @@
+/* styles.css */
+
+.table-container {
+    width: 80%; /* Adjust as needed */
+    margin: 20px auto; /* Center the table horizontally and add space from the top */
+    padding-top: 20px; /* Add additional padding from the top if necessary */
+    overflow-y: auto; /* Add vertical scroll if necessary */
+    height: 400px; /* Adjust the height as needed */
+    background-color: #f7f7f7; /* Light grey background */
+    border-radius: 10px; /* Add some curvature to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fixed layout to ensure equal width columns */
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #6c757d; /* Dark grey background for headers */
+    color: #fff; /* White text color for headers */
+    font-weight: bold;
+}
+
+.table-container tbody tr:nth-child(even) {
+    background-color: #e9ecef; /* Light grey background for even rows */
+}
+
+.table-container tbody tr:hover {
+    background-color: #dee2e6; /* Darker grey background on hover */
+}
